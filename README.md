@@ -1,4 +1,7 @@
-# DCI-Passwort-Generator
+# DCI Passwort Generator 
+<img src ="logo.png" width="200px" alt="Passwort Generator Logo">
+
+|| [**Funktionsweise**](#funktionsweise) || [**Installation**](#installation) || [**Zusammenarbeit**](#zusammenarbeit) ||
 
 Dieses Projekt ist eine Zusammenarbeit zwischen mir und meinem Klassenkameraden [Handrin](https://github.com/handrin-profil-link). Es handelt sich um einen Passwort-Generator, der in JavaScript geschrieben ist und in der Datei `main.js` gefunden werden kann.
 
