@@ -11,11 +11,11 @@ function generatePassword() {
     console.log(`║                                                               ║`);
     console.log(`╚═══════════════════════════════════════════════════════════════╝`);
     return;
-  } else if (isNaN(passswordLength) || passswordLength < 8) {
+  } else if (passswordLength < 8) {
     // Wenn diese Bedingungen nicht erfüllt sind, geben wir eine Fehlermeldung aus.
     console.log(`╔═══════════════════════════════════════════════════════════════╗`);
     console.log(`║                                                               ║`);
-    console.log(`║               Die Zahl muss größer als 8 sein!                ║`);
+    console.log(`║               Die Zahl muss mindestens 8 sein!                ║`);
     console.log(`║                                                               ║`);
     console.log(`╚═══════════════════════════════════════════════════════════════╝`);
     return;
