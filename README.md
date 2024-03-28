@@ -1,5 +1,6 @@
 # DCI Passwort Generator 
-<img src ="logo.png" width="200px" alt="Passwort Generator Logo">
+<img src ="img/logo.png" width="200px" alt="Passwort Generator Logo">
+
 
 || [**Funktionsweise**](#funktionsweise) || [**Installation**](#installation) || [**Zusammenarbeit**](#zusammenarbeit) ||
 
@@ -12,6 +13,17 @@ Der Passwort-Generator funktioniert durch die Kombination von zufällig ausgewä
 
 Die Länge des generierten Passworts kann vom Benutzer festgelegt werden. Der Generator stellt sicher, dass das Passwort immer die vom Benutzer gewählte Länge hat.
 
+Wenn ein Buchstabe, statt einer Zahl ausgeführt wird, erscheint folgende Fehlermeldung:
+
+<img src ="img/letter.png" width="600">
+
+Wenn die Zahl kleiner als 8 ist, erscheint folgende Fehlermeldung:
+
+<img src ="img/tooShort.png" width="600">
+
+Bei erfolgreicher Durchführung mit einer Zahl, die höher als 7 ist, wird das gewünschte Passwort folgendermaßen ausgegeben:
+
+<img src ="img/good.png" width="600">
 
 ## Installation
 
