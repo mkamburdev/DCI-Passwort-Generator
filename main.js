@@ -4,7 +4,14 @@ let passswordLength = process.argv[2];
 // Hier haben wir eine Funktion, die die Passwortlänge generiert.
 function generatePassword() {
   // Innerhalb dieser Funktion überprüfen wir, ob die Eingabe eine Zahl ist und ob sie größer als 8 ist.
-  if (isNaN(passswordLength) || passswordLength < 8) {
+  if (isNaN(passswordLength)) {
+    console.log(`╔═══════════════════════════════════════════════════════════════╗`);
+    console.log(`║                                                               ║`);
+    console.log(`║                   Bitte trage eine Zahl ein!                  ║`);
+    console.log(`║                                                               ║`);
+    console.log(`╚═══════════════════════════════════════════════════════════════╝`);
+    return;
+  } else if (isNaN(passswordLength) || passswordLength < 8) {
     // Wenn diese Bedingungen nicht erfüllt sind, geben wir eine Fehlermeldung aus.
     console.log(`╔═══════════════════════════════════════════════════════════════╗`);
     console.log(`║                                                               ║`);
